@@ -1,17 +1,16 @@
 #include <stdio.h>
 /**
  * main - entry point
- * function receives no parameters
  * Return: 0
  */
 int main(void)
 {
-	int num = 0;
+	char letter = 'z';
 
-	while (num < 10)
+	while (letter >= 'a')
 	{
-		putchar(num);
-		num++;
+		putchar(letter);
+		letter--;
 	}
 	putchar('\n');
 	return (0);
