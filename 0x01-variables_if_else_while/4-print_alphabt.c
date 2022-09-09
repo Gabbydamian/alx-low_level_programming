@@ -2,7 +2,7 @@
 /**
  * main - main is the entry point to the program
  * function has no parameters
- * always returns 0
+ * Return: 0 Always
  */
 int main(void)
 {
