@@ -29,7 +29,7 @@ void puts2(char *str)
 	int i;
 	int size = strlen_1(str);
 
-	for (i = 0; i < size; i +=2)
+	for (i = 0; i < size; i += 2)
 	{
 		_putchar(str[i]);
 	}
