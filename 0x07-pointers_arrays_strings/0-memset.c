@@ -6,6 +6,7 @@
  * @s: string pointer
  * @b: constant byte
  * @n: number of bytes
+ * Return: string
  */
 
 char *_memset(char *s, char b, unsigned int n)
